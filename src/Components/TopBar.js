@@ -33,12 +33,19 @@ function TopBar() {
             }}
           >
             <Nav.Link
-              style={{ color: "#343538", marginRight: "20px", padding: "10px 15px" }}
+              style={{
+                color: "#343538",
+                marginRight: "20px",
+                padding: "10px 15px",
+              }}
               href="#LogIn"
             >
               Log In
             </Nav.Link>
-            <Button variant="success" style={{ fontSize: "18px", padding: "8px 20px" }}>
+            <Button
+              variant="success"
+              style={{ fontSize: "18px", padding: "8px 20px" }}
+            >
               Sign Up
             </Button>
           </Nav>

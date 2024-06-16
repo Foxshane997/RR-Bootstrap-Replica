@@ -4,7 +4,14 @@ import Form from "react-bootstrap/Form";
 
 function Background() {
   return (
-    <div style={{ display: "flex", flexDirection: "row", width: "100%", position: "relative" }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        width: "100%",
+        position: "relative",
+      }}
+    >
       <div
         style={{
           position: "absolute",
@@ -26,7 +33,14 @@ function Background() {
           alt="Background"
         />
       </div>
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          width: "100%",
+        }}
+      >
         <Card
           style={{
             width: "800px",
@@ -42,20 +56,34 @@ function Background() {
           }}
           className="text-black"
         >
-          <div style={{ textAlign: "center"}}>
-            <Card.Text style={{ fontSize: "2.5em", fontWeight: "bold", marginBottom: "20px" }}>
+          <div style={{ textAlign: "center" }}>
+            <Card.Text
+              style={{
+                fontSize: "2.5em",
+                fontWeight: "bold",
+                marginBottom: "20px",
+              }}
+            >
               Order groceries for delivery <br /> or pickup today
             </Card.Text>
             <Card.Text style={{ fontSize: "1.5em", marginBottom: "30px" }}>
               Whatever you want from local stores, brought right to your door.
             </Card.Text>
             <Form>
-              <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Group
+                className="mb-3"
+                controlId="exampleForm.ControlInput1"
+              >
                 <Form.Control
                   size="lg"
                   type="text"
                   placeholder="   Enter your address"
-                  style={{ fontSize: "1em", padding: "10px", borderRadius: "10px", border: "1px solid black" }}
+                  style={{
+                    fontSize: "1em",
+                    padding: "10px",
+                    borderRadius: "10px",
+                    border: "1px solid black",
+                  }}
                 />
               </Form.Group>
             </Form>
