@@ -1,5 +1,6 @@
 import "./App.css";
 import Background from "./Components/Background";
+import StoreListings from "./Components/StoreListings";
 import TopBar from "./Components/TopBar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <TopBar />
       <Background />
+      <StoreListings />
     </div>
   );
 }
